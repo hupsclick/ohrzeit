@@ -1,0 +1,27 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+.min-h-screen {
+  min-height: 100vh;
+}
+.bg-gradient-to-br {
+  background-image: linear-gradient(to bottom right, #f9fafb, #e5e7eb);
+}
+.dark .bg-gradient-to-br {
+  background-image: linear-gradient(to bottom right, #111827, #1f2937);
+}
+.container {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 1rem;
+}
+button {
+  padding: 0.5rem 1rem;
+  margin: 0.5rem;
+  background-color: #3b82f6;
+  color: white;
+  border-radius: 0.5rem;
+}
+.dark button {
+  background-color: #1e40af;
+}
